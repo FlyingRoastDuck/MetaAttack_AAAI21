@@ -7,7 +7,7 @@ Code for AAAI 2021 paper ``Learning to Attack Real-World Models for Person Re-id
 
 ## [Paper](pdfs/578_YangF.pdf)
 
-## Supplementary Material (Coming Soon)
+## Supplemental Material (Coming Soon)
 
 ## Requirements:
 * python 3.7
