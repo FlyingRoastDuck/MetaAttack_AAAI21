@@ -5,7 +5,7 @@ Code for AAAI 2021 paper ``Learning to Attack Real-World Models for Person Re-id
 
 ![Results](figures/MetaAttack.png)
 
-## [Camera Ready Paper](pdfs/578_YangF.pdf)
+## [Paper](pdfs/578_YangF.pdf)
 
 ## Supplementary Material (Coming Soon)
 
