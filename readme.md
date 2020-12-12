@@ -76,7 +76,7 @@ if you use our code, please also cite their paper.
     year = {2019}
 }
 ```
-## Contact Information
+## Contact Me
 
 Email: yangfx@stu.xmu.edu.cn
 
