@@ -4,8 +4,6 @@ import sys
 import os
 from torch.utils.data import DataLoader
 
-sys.path.append(os.path.abspath('mister_ed'))
-
 # ReColorAdv
 from reid import models
 from torch.nn import functional as F
@@ -457,7 +455,7 @@ if __name__ == '__main__':
                              "val set alone for validation")
     parser.add_argument('--print_freq', type=int, default=10)
     parser.add_argument("--max-eps", default=8, type=int, help="max eps")
-    # parser.add_argument("--number", default=10000, type=int, help="number")
+    # parser.add_argument("--number", default=15000, type=int, help="number")
     args = parser.parse_args()
 
     torch.manual_seed(0)
@@ -502,6 +500,7 @@ if __name__ == '__main__':
         model = model.cuda()
         modelTest = modelTest.cuda()
 
+    # # scale-down personx
     # allData, counter = [], 0
     # from collections import defaultdict
     # idMap = defaultdict(list)
