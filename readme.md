@@ -56,10 +56,13 @@ See attack.sh for more information.
 If you find this code useful in your research, please consider citing:
 
 ```
-@inproceedings{yang2021meta,
-  title={Learning to Attack Real-World Models for Person Re-identification via Virtual-Guided Meta-Learning.},
-  author={Yang, Fengxiang and Zhong, Zhun and Liu, Hong and Wang, Zheng and Luo, Zhiming and Li, Shaozi and Nicu, Sebe and Shin'ichi Satoh},
+@inproceedings{yang2021learning,
+  title={Learning to Attack Real-World Models for Person Re-identification via Virtual-Guided Meta-Learning},
+  author={Yang, Fengxiang and Zhong, Zhun and Liu, Hong and Wang, Zheng and Luo, Zhiming and Li, Shaozi and Sebe, Nicu and Satoh, Shin’ichi},
   booktitle={AAAI},
+  volume={35},
+  number={4},
+  pages={3128--3135},
   year={2021}
 }
 ```
